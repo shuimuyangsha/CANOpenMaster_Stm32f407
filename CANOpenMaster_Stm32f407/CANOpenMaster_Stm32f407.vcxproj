@@ -41,15 +41,16 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\..\..\SourceFile\System\Trace;..\..\..\..\SourceFile\System\OS.Port;..\..\..\..\SourceFile\System\OS.Config;..\..\..\..\SourceFile\System\Device\Driver;..\..\..\..\SoureFile\System\Device;..\..\..\..\SoureFile\System\Device\Driver;..\..\..\..\SoureFile\System\CanFestival-3\drivers\STM32;..\..\..\..\SoureFile\System\CanFestival-3\include;..\..\..\..\SoureFile\System\CanFestival-3\include\STM32;..\..\..\..\SoureFile\System\Trace;..\..\..\..\SoureFile\System\CANOpenMaster;..\..\..\..\SoureFile\App;..\..\..\..\SoureFile\System\Device\Driver\StdLib\inc;..\..\..\..\SoureFile\System\Device\Driver\CMSIS;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\SourceFile\System\Trace;..\..\..\..\SourceFile\System\OS.Port;..\..\..\..\SourceFile\System\OS.Config;..\..\..\..\SourceFile\System\Device\Driver;..\..\..\..\SoureFile\System\Device;..\..\..\..\SoureFile\System\Device\Driver;..\..\..\..\SoureFile\System\CanFestival-3\drivers\STM32;..\..\..\..\SoureFile\System\CanFestival-3\include;..\..\..\..\SoureFile\System\CanFestival-3\include\STM32;..\..\..\..\SoureFile\System\Trace;..\..\..\..\SoureFile\System\CANOpenMaster;..\..\..\..\SoureFile\App;..\..\..\..\SoureFile\System\Device\Driver\StdLib\inc;..\..\..\..\SoureFile\System\Device\Driver\CMSIS;../../../../SoureFile/System/Device/Driver/CMSIS;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>USE_STDPERIPH_DRIVER;STM32F40_41xxx;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalOptions />
       <CLanguageStandard />
       <CPPLanguageStandard />
     </ClCompile>
     <Link>
-      <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <AdditionalLinkerInputs>;%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
       <AdditionalOptions />
+      <LinkerScript />
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
