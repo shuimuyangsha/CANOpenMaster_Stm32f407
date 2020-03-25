@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|VisualGDB">
+      <Configuration>Debug</Configuration>
+      <Platform>VisualGDB</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|VisualGDB">
+      <Configuration>Release</Configuration>
+      <Platform>VisualGDB</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{5225C119-4E96-4AD1-8348-A715C9C3437C}</ProjectGuid>
+    <BSP_ID>KEIL:Keil/STM32F4xx_DFP</BSP_ID>
+    <BSP_VERSION>2.6.0</BSP_VERSION>
+    <InPlaceBSPSubdir />
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <MCUPropertyListFile>$(ProjectDir)mcu.props</MCUPropertyListFile>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <MCUPropertyListFile>$(ProjectDir)mcu.props</MCUPropertyListFile>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <GNUConfigurationType>Debug</GNUConfigurationType>
+    <ToolchainID>com.sysprogs.toolchains.nongnu.armcc</ToolchainID>
+    <ToolchainVersion>5.x//r1</ToolchainVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <ToolchainID>com.sysprogs.toolchains.nongnu.armcc</ToolchainID>
+    <ToolchainVersion>5.x//r1</ToolchainVersion>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\..\SourceFile\System\Trace;..\..\..\..\SourceFile\System\OS.Port;..\..\..\..\SourceFile\System\OS.Config;..\..\..\..\SourceFile\System\Device\Driver;..\..\..\..\SoureFile\System\Device;..\..\..\..\SoureFile\System\Device\Driver;..\..\..\..\SoureFile\System\CanFestival-3\drivers\STM32;..\..\..\..\SoureFile\System\CanFestival-3\include;..\..\..\..\SoureFile\System\CanFestival-3\include\STM32;..\..\..\..\SoureFile\System\Trace;..\..\..\..\SoureFile\System\CANOpenMaster;..\..\..\..\SoureFile\App;..\..\..\..\SoureFile\System\Device\Driver\StdLib\inc;..\..\..\..\SoureFile\System\Device\Driver\CMSIS;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>USE_STDPERIPH_DRIVER;STM32F40_41xxx;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions />
+      <CLanguageStandard />
+      <CPPLanguageStandard />
+    </ClCompile>
+    <Link>
+      <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <AdditionalOptions />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\..\SourceFile\System\Trace;..\..\..\..\SourceFile\System\OS.Port;..\..\..\..\SourceFile\System\OS.Config;..\..\..\..\SourceFile\System\Device\Driver;..\..\..\..\SoureFile\System\Device;..\..\..\..\SoureFile\System\Device\Driver;..\..\..\..\SoureFile\System\CanFestival-3\drivers\STM32;..\..\..\..\SoureFile\System\CanFestival-3\include;..\..\..\..\SoureFile\System\CanFestival-3\include\STM32;..\..\..\..\SoureFile\System\Trace;..\..\..\..\SoureFile\System\CANOpenMaster;..\..\..\..\SoureFile\App;..\..\..\..\SoureFile\System\Device\Driver\StdLib\inc;..\..\..\..\SoureFile\System\Device\Driver\CMSIS;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>USE_STDPERIPH_DRIVER;STM32F40_41xxx;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions />
+      <CLanguageStandard />
+      <CPPLanguageStandard />
+    </ClCompile>
+    <Link>
+      <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <AdditionalOptions />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\SoureFile\App\main.c" />
+    <ClCompile Include="..\..\..\..\SoureFile\App\GlobalVar.c" />
+    <ClCompile Include="..\..\..\..\SoureFile\System\CanFestival-3\src\dcf.c" />
+    <ClCompile Include="..\..\..\..\SoureFile\System\CanFestival-3\src\emcy.c" />
+    <ClCompile Include="..\..\..\..\SoureFile\System\CanFestival-3\src\lifegrd.c" />
+    <ClCompile Include="..\..\..\..\SoureFile\System\CanFestival-3\src\lss.c" />
+    <ClCompile Include="..\..\..\..\SoureFile\System\CanFestival-3\src\nmtMaster.c" />
+    <ClCompile Include="..\..\..\..\SoureFile\System\CanFestival-3\src\nmtSlave.c" />
+    <ClCompile Include="..\..\..\..\SoureFile\System\CanFestival-3\src\objacces.c" />
+    <ClCompile Include="..\..\..\..\SoureFile\System\CanFestival-3\src\pdo.c" />
+    <ClCompile Include="..\..\..\..\SoureFile\System\CanFestival-3\src\sdo.c" />
+    <ClCompile Include="..\..\..\..\SoureFile\System\CanFestival-3\src\states.c" />
+    <ClCompile Include="..\..\..\..\SoureFile\System\CanFestival-3\src\sync.c" />
+    <ClCompile Include="..\..\..\..\SoureFile\System\CanFestival-3\src\timer.c" />
+    <ClCompile Include="..\..\..\..\SoureFile\System\CanFestival-3\drivers\STM32\can_stm32.c" />
+    <ClCompile Include="..\..\..\..\SoureFile\System\CanFestival-3\drivers\STM32\timer_stm32.c" />
+    <ClCompile Include="..\..\..\..\SoureFile\System\CANOpenMaster\CANOpenObjDictConfig.c" />
+    <ClCompile Include="..\..\..\..\SoureFile\System\CanFestival-3\objdict\ObjDict.c" />
+    <ClCompile Include="..\..\..\..\SoureFile\System\Device\device_dio.c" />
+    <ClCompile Include="..\..\..\..\SoureFile\System\Device\Driver\StdLib\src\misc.c" />
+    <ClCompile Include="..\..\..\..\SoureFile\System\Device\Driver\StdLib\src\stm32f4xx_can.c" />
+    <ClCompile Include="..\..\..\..\SoureFile\System\Device\Driver\StdLib\src\stm32f4xx_gpio.c" />
+    <ClCompile Include="..\..\..\..\SoureFile\System\Device\Driver\StdLib\src\stm32f4xx_rcc.c" />
+    <ClCompile Include="..\..\..\..\SoureFile\System\Device\Driver\StdLib\src\stm32f4xx_rtc.c" />
+    <ClCompile Include="..\..\..\..\SoureFile\System\Device\Driver\StdLib\src\stm32f4xx_pwr.c" />
+    <ClCompile Include="..\..\..\..\SoureFile\System\Device\Driver\StdLib\src\stm32f4xx_tim.c" />
+    <ClCompile Include="..\..\..\..\SoureFile\System\Device\Driver\stm32f4xx_it.c" />
+    <ClCompile Include="..\..\..\..\SoureFile\System\Trace\SEGGER_RTT.c" />
+    <ClCompile Include="..\..\..\..\SoureFile\System\Trace\SEGGER_RTT_printf.c" />
+    <ClCompile Include="..\..\..\..\SoureFile\System\Device\Driver\CMSIS\Startup\startup_stm32f40_41xxx.s" />
+    <ClCompile Include="..\..\..\..\SoureFile\System\Device\Driver\CMSIS\system_stm32f4xx.c" />
+    <None Include="mcu.props" />
+    <ClInclude Include="$(BSP_ROOT)\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h" />
+    <None Include="CANOpenMaster_Stm32f407-Debug.vgdbsettings" />
+    <None Include="CANOpenMaster_Stm32f407-Release.vgdbsettings" />
+    <None Include="MCU.xml" />
+  </ItemGroup>
+</Project>

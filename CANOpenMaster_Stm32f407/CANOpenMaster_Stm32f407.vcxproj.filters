@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{3aa6fafe-b91c-4336-940c-7c1b52149186}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{cb787c27-4904-4d12-b48b-7369f055b19d}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{2f7d4b4c-90cf-42b2-a884-9177a1fbc693}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source files\System.Core">
+      <UniqueIdentifier>{92d3238d-be48-402a-a71c-af87faa65eaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\System.Canfestval">
+      <UniqueIdentifier>{9aab8c9b-983f-4d71-99f0-622c9a9bfe7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\System.CANOpenDriver">
+      <UniqueIdentifier>{f5b53561-7bb3-46d5-8b94-b13630cb6752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\System.CANOpenMaster">
+      <UniqueIdentifier>{0c0fe7dc-032c-4e22-88b7-856b58c8dab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\System.CANOpenObjectDictionary">
+      <UniqueIdentifier>{90029e7c-9992-404d-9f7d-4eb2370a056a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\System.Device">
+      <UniqueIdentifier>{789eef6a-82c0-4d48-9415-3f8308b9dcfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\System.StdPeriphDriver">
+      <UniqueIdentifier>{bef66624-3209-42b3-ac41-3b5a60740ad6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\System.Driver">
+      <UniqueIdentifier>{94ab324a-b50b-4b74-a55b-ad8f3a7340cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\System.Trace">
+      <UniqueIdentifier>{953cb3b6-7b55-4589-8dd7-815ed7162549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\System.Startup">
+      <UniqueIdentifier>{e53568bd-521e-4d2f-be8f-6405f7bdd6f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\System.CMSIS">
+      <UniqueIdentifier>{e955dc31-94b4-4e16-ac28-29e77e6e24fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\::CMSIS">
+      <UniqueIdentifier>{13a049bc-d6d5-4345-a33e-245bf32d71b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files">
+      <UniqueIdentifier>{e8a2cc28-3b93-43dc-80ce-e3c5e38b858c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\System.Core">
+      <UniqueIdentifier>{cf7b5d4e-4696-4641-a22f-1416b1653811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\System.Canfestval">
+      <UniqueIdentifier>{cd804d6f-1b0b-4f4f-9245-becc663c22ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\System.CANOpenDriver">
+      <UniqueIdentifier>{f10a0c44-cee8-488e-97b6-1adc000cf9bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\System.CANOpenMaster">
+      <UniqueIdentifier>{793fe603-9828-4e94-a0f7-5bc9f8556ffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\System.CANOpenObjectDictionary">
+      <UniqueIdentifier>{52d95346-4959-473f-aef4-76ea0dfdc53f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\System.Device">
+      <UniqueIdentifier>{2860d4b1-ad4a-40b6-9ab5-121e1d74d098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\System.StdPeriphDriver">
+      <UniqueIdentifier>{2c1ddf11-add4-48c5-b3f7-752ca332c0de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\System.Driver">
+      <UniqueIdentifier>{55c1b4c5-be61-45b5-ac62-c12467693d9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\System.Trace">
+      <UniqueIdentifier>{ddda50e2-cfe7-4c7d-a52b-a8909dbf88e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\System.Startup">
+      <UniqueIdentifier>{19e80acc-1848-45e6-ae03-aae322ad5f76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\System.CMSIS">
+      <UniqueIdentifier>{00ddfb88-ab36-4d79-be30-c1057dc05f9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\::CMSIS">
+      <UniqueIdentifier>{c45337e6-1786-4ca3-8f39-72b4ecd0e866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files">
+      <UniqueIdentifier>{0a0e74ee-dffc-4973-9b5f-c9be760a8553}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{e89fec10-0119-4c4f-b9ff-ac415e65e9f7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\SoureFile\App\main.c">
+      <Filter>Source files\System.Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SoureFile\App\GlobalVar.c">
+      <Filter>Source files\System.Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SoureFile\System\CanFestival-3\src\dcf.c">
+      <Filter>Source files\System.Canfestval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SoureFile\System\CanFestival-3\src\emcy.c">
+      <Filter>Source files\System.Canfestval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SoureFile\System\CanFestival-3\src\lifegrd.c">
+      <Filter>Source files\System.Canfestval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SoureFile\System\CanFestival-3\src\lss.c">
+      <Filter>Source files\System.Canfestval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SoureFile\System\CanFestival-3\src\nmtMaster.c">
+      <Filter>Source files\System.Canfestval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SoureFile\System\CanFestival-3\src\nmtSlave.c">
+      <Filter>Source files\System.Canfestval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SoureFile\System\CanFestival-3\src\objacces.c">
+      <Filter>Source files\System.Canfestval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SoureFile\System\CanFestival-3\src\pdo.c">
+      <Filter>Source files\System.Canfestval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SoureFile\System\CanFestival-3\src\sdo.c">
+      <Filter>Source files\System.Canfestval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SoureFile\System\CanFestival-3\src\states.c">
+      <Filter>Source files\System.Canfestval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SoureFile\System\CanFestival-3\src\sync.c">
+      <Filter>Source files\System.Canfestval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SoureFile\System\CanFestival-3\src\timer.c">
+      <Filter>Source files\System.Canfestval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SoureFile\System\CanFestival-3\drivers\STM32\can_stm32.c">
+      <Filter>Source files\System.CANOpenDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SoureFile\System\CanFestival-3\drivers\STM32\timer_stm32.c">
+      <Filter>Source files\System.CANOpenDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SoureFile\System\CANOpenMaster\CANOpenObjDictConfig.c">
+      <Filter>Source files\System.CANOpenMaster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SoureFile\System\CanFestival-3\objdict\ObjDict.c">
+      <Filter>Source files\System.CANOpenObjectDictionary</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SoureFile\System\Device\device_dio.c">
+      <Filter>Source files\System.Device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SoureFile\System\Device\Driver\StdLib\src\misc.c">
+      <Filter>Source files\System.StdPeriphDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SoureFile\System\Device\Driver\StdLib\src\stm32f4xx_can.c">
+      <Filter>Source files\System.StdPeriphDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SoureFile\System\Device\Driver\StdLib\src\stm32f4xx_gpio.c">
+      <Filter>Source files\System.StdPeriphDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SoureFile\System\Device\Driver\StdLib\src\stm32f4xx_rcc.c">
+      <Filter>Source files\System.StdPeriphDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SoureFile\System\Device\Driver\StdLib\src\stm32f4xx_rtc.c">
+      <Filter>Source files\System.StdPeriphDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SoureFile\System\Device\Driver\StdLib\src\stm32f4xx_pwr.c">
+      <Filter>Source files\System.StdPeriphDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SoureFile\System\Device\Driver\StdLib\src\stm32f4xx_tim.c">
+      <Filter>Source files\System.StdPeriphDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SoureFile\System\Device\Driver\stm32f4xx_it.c">
+      <Filter>Source files\System.Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SoureFile\System\Trace\SEGGER_RTT.c">
+      <Filter>Source files\System.Trace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SoureFile\System\Trace\SEGGER_RTT_printf.c">
+      <Filter>Source files\System.Trace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SoureFile\System\Device\Driver\CMSIS\Startup\startup_stm32f40_41xxx.s">
+      <Filter>Source files\System.Startup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SoureFile\System\Device\Driver\CMSIS\system_stm32f4xx.c">
+      <Filter>Source files\System.CMSIS</Filter>
+    </ClCompile>
+    <None Include="mcu.props">
+      <Filter>Source files\Device-specific files</Filter>
+    </None>
+    <ClInclude Include="$(BSP_ROOT)\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <None Include="CANOpenMaster_Stm32f407-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="CANOpenMaster_Stm32f407-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="MCU.xml">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+  </ItemGroup>
+</Project>
